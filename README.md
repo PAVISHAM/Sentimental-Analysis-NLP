@@ -2,6 +2,10 @@
 
 ## 📌 Project Overview
 
+
+Hugging Face Model Link :  "https://huggingface.co/pavisha-sentiment-analysis/SentimentalAnalysisModel/tree/main"
+
+
 This project is a **Sentiment Analysis system** developed using **Natural Language Processing (NLP)** and Machine Learning.
 
 The system analyzes movie reviews and classifies them into two sentiment categories:
