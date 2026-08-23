@@ -4,6 +4,9 @@
 
 🔗 Hugging Face Model Link: https://huggingface.co/pavisha-sentiment-analysis/SentimentalAnalysisModel/tree/main
 
+
+🔗Live Demo Link :  https://drive.google.com/file/d/1ce2d6_fuMkbOVzO9HginxUTVSAZEL6-H/view
+
 This project is a **Sentiment Analysis system** developed using **Natural Language Processing (NLP)** and Machine Learning.
 
 The system analyzes movie reviews and classifies them into two sentiment categories:
@@ -13,13 +16,7 @@ The system analyzes movie reviews and classifies them into two sentiment categor
 
 The project uses the **IMDB Dataset of 50K Movie Reviews**. NLP techniques are applied to clean and preprocess the review text, followed by **TF-IDF Vectorization** to convert text into numerical features. A **Logistic Regression** model is then trained to classify the sentiment of reviews.
 
-## 🎥 Live Demo
 
-Watch the complete project demonstration:
-
-👉 [Click here to watch the Live Demo Video](./live_demo.mp4)
-
-The video demonstrates the sentiment analysis system and custom review predictions.
 
 ## 🛠️ Technologies Used
 
