@@ -3,7 +3,10 @@
 ## 📌 Project Overview
 
 
-Hugging Face Model Link :  "https://huggingface.co/pavisha-sentiment-analysis/SentimentalAnalysisModel/tree/main"
+🔗Hugging Face Model Link :  https://huggingface.co/pavisha-sentiment-analysis/SentimentalAnalysisModel/tree/main
+
+
+🔗Live Demo Link : https://drive.google.com/file/d/1ce2d6_fuMkbOVzO9HginxUTVSAZEL6-H/view
 
 
 This project is a **Sentiment Analysis system** developed using **Natural Language Processing (NLP)** and Machine Learning.
@@ -15,31 +18,6 @@ The system analyzes movie reviews and classifies them into two sentiment categor
 
 The project uses the **IMDB Dataset of 50K Movie Reviews**. NLP techniques are applied to clean and preprocess the review text, followed by **TF-IDF Vectorization** to convert text into numerical features. A **Logistic Regression** model is then trained to classify the sentiment of reviews.
 
-## 🎯 Objectives
-
-* Analyze movie reviews using Natural Language Processing.
-* Clean and preprocess raw text data.
-* Convert textual data into numerical features using TF-IDF.
-* Train a machine learning classification model.
-* Evaluate the model using accuracy and classification metrics.
-* Predict the sentiment of new/custom movie reviews.
-* Save the trained model and TF-IDF vectorizer for future use.
-
-## 📊 Dataset
-
-The project uses the **IMDB Dataset of 50K Movie Reviews**.
-
-The dataset contains:
-
-* **50,000 movie reviews**
-* **25,000 reviews for training**
-* **25,000 reviews for testing**
-* Two sentiment classes:
-
-  * Positive
-  * Negative
-
-The dataset is downloaded using `kagglehub`.
 
 ## 🛠️ Technologies Used
 
@@ -82,23 +60,7 @@ IMDB Movie Reviews Dataset
  Positive / Negative
 ```
 
-## 🧹 NLP Text Preprocessing
-
-The raw movie reviews are cleaned before training the model.
-
-The preprocessing steps include:
-
-1. Removing HTML `<br>` tags.
-2. Converting text to lowercase.
-3. Removing special characters and numbers.
-4. Removing extra whitespace.
-5. Preparing the cleaned text for feature extraction.
-
-Example:
-
-```text
-Original:
-"I absolutely LOVED this movie! <br /> It was amazing."
+"
 
 After preprocessing:
 "i absolutely loved this movie it was amazing"
@@ -181,84 +143,4 @@ The saved files are:
 ```text
 sentiment_model.pkl
 tfidf_vectorizer.pkl
-```
-
-These files can be loaded later to make predictions without retraining the model.
-
-## 📁 Project Structure
-
-```text
-Sentiment-Analysis/
-│
-├── sentiment_analysis.ipynb
-├── sentiment_model.pkl
-├── tfidf_vectorizer.pkl
-├── README.md
-└── requirements.txt
-```
-
-## 🚀 How to Run
-
-### 1. Clone the Repository
-
-```bash
-git clone <your-repository-url>
-```
-
-### 2. Navigate to the Project
-
-```bash
-cd Sentiment-Analysis
-```
-
-### 3. Install Required Libraries
-
-```bash
-pip install pandas scikit-learn kagglehub joblib
-```
-
-### 4. Run the Notebook
-
-Open the notebook in **Google Colab** or **Jupyter Notebook** and execute the cells.
-
-## 📦 Required Libraries
-
-```text
-pandas
-scikit-learn
-kagglehub
-joblib
-```
-
-## 🌍 Applications
-
-Sentiment Analysis can be applied to:
-
-* 🎬 Movie review analysis
-* ⭐ Product review analysis
-* 💬 Customer feedback analysis
-* 📱 Social media sentiment analysis
-* 🛍️ E-commerce review analysis
-* 📊 Opinion mining
-
-## 🔮 Future Enhancements
-
-* Create a web interface for real-time sentiment prediction.
-* Deploy the model using **Streamlit** or **Hugging Face Spaces**.
-* Experiment with advanced NLP models.
-* Improve text preprocessing techniques.
-* Compare Logistic Regression with other classification algorithms.
-* Implement deep learning models such as LSTM or Transformer-based models.
-
-## 👩‍💻 Author
-
-**Pavisha M**
-
-BE Computer Science and Engineering
-University College of Engineering Nagercoil
-
-## ⭐ Conclusion
-
-This project demonstrates how **Natural Language Processing and Machine Learning** can be combined to perform sentiment classification on movie reviews.
-
-By using **text preprocessing, TF-IDF feature extraction, and Logistic Regression**, the system achieved an accuracy of **88.97%** on the test dataset and successfully predicted the sentiment of custom movie reviews.
+-------
